@@ -5,6 +5,9 @@
  */
 package br.senac.tads3.pi3b.aula02;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 /**
  *
  * @author fernando.tsuda
@@ -19,6 +22,11 @@ public class Principal {
       System.out.println("Hello world PI3B!!!");
     } else {
        System.out.println("ERRO");
+    }
+    try {
+      Thread.sleep(3L);
+    } catch (InterruptedException ex) {
+      // TODO: Tratar
     }
     
   }
