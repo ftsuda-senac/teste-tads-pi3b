@@ -18,10 +18,12 @@ public class Principal {
    * @param args the command line arguments
    */
   public static void main(String[] args) {
-    if (System.currentTimeMillis() % 2 == 1) {
-      System.out.println("Hello world PI3B!!!");
-    } else {
-       System.out.println("ERRO");
+    for (int i = 0; i < 10; i++) {
+      if (System.currentTimeMillis() % 2 == 1) {
+	System.out.println("Hello world PI3B!!!");
+      } else {
+	System.out.println("ERRO");
+      }
     }
     try {
       Thread.sleep(3L);
@@ -30,5 +32,5 @@ public class Principal {
     }
     
   }
-  
+
 }
