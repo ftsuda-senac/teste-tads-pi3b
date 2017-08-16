@@ -24,12 +24,13 @@ public class Principal {
       } else {
 	System.out.println("ERRO");
       }
-    }
     try {
       Thread.sleep(3L);
     } catch (InterruptedException ex) {
       // TODO: Tratar
     }
+    }
+
     
   }
 
