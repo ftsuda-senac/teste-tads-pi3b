@@ -15,7 +15,12 @@ public class Principal {
    * @param args the command line arguments
    */
   public static void main(String[] args) {
-    System.out.println("Hello world PI3B!!!");
+    if (System.currentTimeMillis() % 2 == 1) {
+      System.out.println("Hello world PI3B!!!");
+    } else {
+       System.out.println("ERRO");
+    }
+    
   }
   
 }
